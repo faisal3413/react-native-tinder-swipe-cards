@@ -19,7 +19,7 @@ import clamp from 'clamp';
 import Defaults from './Defaults.js';
 
 const viewport = Dimensions.get('window')
-const SWIPE_THRESHOLD = 120;
+const SWIPE_THRESHOLD = 40;  // 120 faisal
 
 const styles = StyleSheet.create({
   container: {
@@ -321,7 +321,7 @@ export default class SwipeCards extends Component {
   _animateEntrance() {
     Animated.spring(
       this.state.enter,
-      { toValue: 1, friction: 8 }
+      { toValue: 1, friction: 4 }
     ).start();
   }
 
