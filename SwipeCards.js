@@ -24,9 +24,12 @@ const SWIPE_THRESHOLD = 40;  // 120 faisal
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    height: '110%',  // faisal
+    width: '100%',  // faisal
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'transparent',
+    backgroundColor: 'rgba(0,0,0,0.9)', // faisal
+    position: 'absolute',  // faisal
   },
   yup: {
     borderColor: 'green',

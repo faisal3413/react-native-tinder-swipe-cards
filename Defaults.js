@@ -17,7 +17,7 @@ class NoMoreCards extends Component {
   render() {
     return (
       <View>
-        <Text style={styles.noMoreCardsText}>No more cards</Text>
+        <Text style={styles.noMoreCardsText}></Text>
       </View>
     )
   }
